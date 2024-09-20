@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+.bai-2 .container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 30px auto;
+}
+.bai-2 .container .inner-wrap{
+    border: 1px solid black;
+}
+.bai-2 .container .inner-wrap .inner-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #294E79;
+    height: 130px;
+}
+.bai-2 .container .inner-wrap .inner-header .inner-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bai-2 .container .inner-wrap .inner-header  .inner-content{
+    color: whitesmoke;
+}
+.bai-2 .container .inner-wrap .inner-header .inner-img img{
+    height: 100px;
+}
+.bai-2 .container .inner-wrap .inner-header .inner-button{
+    padding-top: 10px;
+    padding-right: 30px;
+}
+.bai-2 .container .inner-wrap .inner-header .inner-button .button{
+    width: 250px;
+    height: 30px;
+    text-align: left;
+    background-color: #1F3048;
+    border: 1px solid whitesmoke;
+}
+.bai-2 .container .inner-wrap .inner-header .inner-button  input{
+    background-color: #102D4F;
+    height: 30px;
+    padding: 0px 10px;
+        border: 1px solid whitesmoke;
+    margin-left: 20px;
+
+}
+/* menu */
+.bai-2 .container .inner-wrap  .inner-menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    margin-top: -43px;
+}
+.bai-2 .container .inner-wrap  .inner-menu ul li  a{
+    color: whitesmoke;
+  text-decoration: none;
+}
+.bai-2 .container .inner-wrap  .inner-menu ul li {
+    margin-left: 30px;
+    background-color: #3F73A6;
+    padding: 10px 5px;
+}
+
+
+
+
+/* end menu */
+/* section */
+.bai-2 .container .inner-wrap .inner-section {
+    display: flex;
+    padding: 30px 10px;
+}
+.bai-2 .container .inner-wrap .inner-section .inner-nav{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.bai-2 .container .inner-wrap .inner-section .inner-article{
+    flex: 1;
+}
+.bai-2 .container .inner-wrap .inner-section .inner-nav .inner-content {
+    display:flex;
+ 
+ 
+}
+.bai-2 .container .inner-wrap .inner-section .inner-nav .inner-content .inner-content1{
+    width: 50%;
+}
+.bai-2 .container .inner-wrap .inner-section .inner-nav .inner-content .inner-content2{
+    width: 50%;
+}
+.bai-2 .container .inner-wrap .inner-section .inner-nav .inner-nav-content{
+    border-bottom: 3px dotted #989898;
+    color: #989898;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+/* end section */
+
+/* content 1 */
+.bai-2 .container .inner-wrap .inner-section .inner-nav .inner-content .inner-content1 .inner-title p{
+    color: red;
+    font-style: italic;
+    text-shadow: 5px 5px 5px green;
+}
+.bai-2 .container .inner-wrap .inner-section .inner-nav .inner-content{
+    margin-top: 20px;
+}
+.bai-2 .container .inner-wrap .inner-section .inner-nav .inner-content .inner-content1 .inner-title .inner-table input{
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    background-color: #F7F7F7;
+    border: 1px solid darkgrey;
+
+}
+.bai-2 .container .inner-wrap .inner-section .inner-nav .inner-content .inner-content1 .inner-title .inner-table  table{
+    width: 100%;
+}
+.a{
+    width: 95%;
+}
+.bai-2 .container .inner-wrap .inner-section .inner-nav .inner-content .inner-content1 .inner-title .inner-table textarea{
+    height: 100px;
+        background-color: #F7F7F7;
+    border: 1px solid darkgrey;
+}
+
+#b{
+   padding: 0px 10px;
+    
+}
+
+/* end content1  */
+.bai-2 .container .inner-wrap .inner-section .inner-nav .inner-content .inner-content2 h2{
+
+   border-bottom: 3px dotted #989898;
+    color: #989898;
+    padding-bottom: 20px;
+    font-weight: normal;
+    margin-bottom: 30px;
+   
+}
+.bai-2 .container .inner-wrap .inner-section .inner-nav .inner-content .inner-content2 {
+    color: #989898 ;
+}
+/* article */
+.bai-2 .container .inner-wrap .inner-section .inner-article .inner-title{
+   border-bottom: 3px dotted #989898;
+    color: #989898;
+    padding-bottom: 20px;
+    font-weight: normal;
+    margin-bottom: 30px;   
+}
+.bai-2 .container .inner-wrap .inner-section .inner-article img{
+    border: 1px solid #989898;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.bai-2 .container .inner-wrap .inner-section .inner-article  p{
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.bai-2 .container .inner-wrap .inner-section .inner-article a{
+    display: block;
+    text-align: end;
+}
+
+/* end article */
+
+
+

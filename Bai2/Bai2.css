@@ -1,0 +1,109 @@
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: 800px;
+    position: relative;
+}
+.wrapper{
+    border-bottom: 0.5px solid black;
+}
+.wrapper .header{
+    height: 100px;
+    background-color: #294e79;
+    display: flex;
+    width: 100%;
+}
+.wrapper .header .img{
+    display: flex;+
+    justify-content: center;
+    align-items: center;
+}
+.header-content {
+    margin-top: -20px;
+    color: aliceblue;
+    
+}
+.header-content .inner-title{
+    margin-bottom: 0px;
+}
+.wrapper  .inner-button{
+    padding-top: 10px;
+    padding-right: 30px;
+    float: right;
+    position:absolute;
+    top: 0px;
+    right:-20px;
+}
+
+/* nav */
+.nav .menu{
+    display: flex;
+    list-style: none;
+   float: right;
+   margin-top: -40px;
+    
+}
+.nav .menu li{
+    padding: 10px 20px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: whitesmoke;
+    
+}
+.nav .menu .menu-1{
+    position: relative;
+}
+
+.nav .menu li .menu-2{
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    
+    padding: 0px;
+    margin: 0px;
+    left: 0px;
+    display: none;
+    
+    
+}
+.nav .menu li .menu-2 li{
+    
+    margin-left: 0px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.nav .menu .menu-1:hover>.menu-2{
+    display: block;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.menu li:hover{
+background-color: red;
+
+}
+section {
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+    
+}
+.section .aside{
+    float: left;
+    width: 70%;
+    background-color: #dcdcdc;
+}
+.section .article{
+    float: right;
+    width: 30%;
+    background-color: rgb(148, 89, 17);
+}
